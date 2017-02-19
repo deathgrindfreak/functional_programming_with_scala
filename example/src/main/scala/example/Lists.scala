@@ -24,8 +24,8 @@ object Lists {
    * @return The sum of all elements in `xs`
    */
     def sum(xs: List[Int]): Int = {
-      if (xs.isEmpty) return 0
-      return xs.head + sum(xs.tail)
+      if (xs.isEmpty) 0
+      xs.head + sum(xs.tail)
     }
 
   /**
@@ -45,12 +45,12 @@ object Lists {
       if (xs.isEmpty) throw new NoSuchElementException
 
       def maxHelp(xs: List[Int], mx: Int) : Int = {
-        if (xs.isEmpty) return mx
-        if (mx < xs.head) return maxHelp(xs.tail, xs.head)
-        return maxHelp(xs.tail, mx)
+        if (xs.isEmpty) mx
+        if (mx < xs.head) maxHelp(xs.tail, xs.head)
+        maxHelp(xs.tail, mx)
       }
 
-      return maxHelp(xs.tail, xs.head)
+      maxHelp(xs.tail, xs.head)
     }
 
   }
