@@ -79,6 +79,12 @@ class FunSetSuite extends FunSuite {
     val s3 = singletonSet(3)
   }
 
+  trait TestSets2 {
+    val s1 = singletonSet(2)
+    val s2 = union(singletonSet(2), singletonSet(4))
+    val s3 = union(singletonSet(4), singletonSet(6))
+  }
+
   /**
    * This test is currently disabled (by using "ignore") because the method
    * "singletonSet" is not yet implemented and the test would fail.
@@ -110,5 +116,38 @@ class FunSetSuite extends FunSuite {
     }
   }
 
+  test("intersect is empty for TestSet") {
+    new TestSets {
+      val s = intersect(s1, s2)
+      assert(!contains(s, 1), "Intersect 1")
+      assert(!contains(s, 2), "Intersect 2")
+      assert(!contains(s, 3), "Intersect 3")
+    }
+  }
+
+  test("intersect for TestSets2") {
+    new TestSets2 {
+      val s = intersect(s1, s2)
+      val ss = intersect(s2, s3)
+      assert(contains(s, 2), "Intersect 1")
+      assert(contains(ss, 4), "Intersect 2")
+      assert(!contains(ss, 6), "Intersect 3")
+    }
+  }
+
+  test("map of singleton contains map value") {
+    val s = singletonSet(2)
+    val m = map(s, x => 2 * x)
+    assert(contains(m, 4), "Map 2 * x over singleton of 2")
+  }
+
+  test("map of range contains shifted range") {
+    val s = (x: Int) => 2 <= x && x <= 5
+    val m = map(s, x => 2 * x)
+    assert(contains(m, 4), "Map 2 * x over singleton of 2")
+    assert(contains(m, 6), "Map 2 * x over singleton of 2")
+    assert(contains(m, 8), "Map 2 * x over singleton of 2")
+    assert(contains(m, 10), "Map 2 * x over singleton of 2")
+  }
 
 }

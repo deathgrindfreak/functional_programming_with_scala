@@ -1,0 +1,10 @@
+package funsets
+
+object Main extends App {
+  import FunSets._
+  val s = (x: Int) => 2 <= x && x <= 10
+  val se = (x: Int) => x == 2 || x == 4 || x == 6 ||
+  printSet(s)
+  println(forall(s, (x: Int) => x % 2 == 0))
+  println(forall(se, (x: Int) => x % 2 == 0))
+}

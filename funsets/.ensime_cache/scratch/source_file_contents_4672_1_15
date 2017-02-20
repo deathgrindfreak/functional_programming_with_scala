@@ -1,0 +1,8 @@
+package funsets
+
+object Main extends App {
+  import FunSets._
+  val s = (x: Int) => 2 <= x && x <= 5
+  printSet(s)
+  printSet(forall(s, x =>))
+}

@@ -1,0 +1,8 @@
+package funsets
+
+object Main extends App {
+  import FunSets._
+  val s = (x: Int) => 2 <= x && x <= 10
+  printSet(s)
+  pr(forall(s, (x: Int) => x % 2 == 0))
+}

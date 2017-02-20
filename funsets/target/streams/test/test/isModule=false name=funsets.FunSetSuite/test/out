@@ -1,0 +1,8 @@
+[info] FunSetSuite:
+[info] - contains is implemented
+[info] - singletonSet(1) contains 1
+[info] - union contains all elements of each set
+[info] - intersect is empty for TestSet
+[info] - intersect for TestSets2
+[info] - map of singleton contains map value
+[info] - map of range contains shifted range
