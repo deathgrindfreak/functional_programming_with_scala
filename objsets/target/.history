@@ -1,0 +1,16 @@
+compile
+run
+run-main "scala.objsets.TweetSet.Main"
+run-main "scala.objsets.TweetSet"
+run-main "main.scala.objsets.TweetSet"
+inspect compile:main-class
+~run
+compile
+test
+run
+compile
+run
+compile
+run
+compile
+run

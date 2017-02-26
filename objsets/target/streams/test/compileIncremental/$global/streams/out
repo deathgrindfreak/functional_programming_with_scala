@@ -1,0 +1,61 @@
+[debug] The objsets.Empty source file has the following regular definitions changed:
+[debug] 	union.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) objsets.Empty: Set(); now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
+[debug] Getting sources that directly depend on (external) objsets.Empty.
+[debug] The following modified names cause invalidation of /Users/deathgrindfreak/bin/scala-course/objsets/src/test/scala/objsets/TweetSetSuite.scala: Set(union)
+[debug] The objsets.Tweet source file has the following regular definitions changed:
+[debug] 	union.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) objsets.Tweet: Set(); now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
+[debug] Getting sources that directly depend on (external) objsets.Tweet.
+[debug] The following modified names cause invalidation of /Users/deathgrindfreak/bin/scala-course/objsets/src/test/scala/objsets/TweetSetSuite.scala: Set(union)
+[debug] The objsets.TweetList source file has the following regular definitions changed:
+[debug] 	union.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) objsets.TweetList: Set(); now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
+[debug] Getting sources that directly depend on (external) objsets.TweetList.
+[debug] The following modified names cause invalidation of /Users/deathgrindfreak/bin/scala-course/objsets/src/test/scala/objsets/TweetSetSuite.scala: Set(union)
+[debug] The objsets.TweetSet source file has the following regular definitions changed:
+[debug] 	union.
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) objsets.TweetSet: Set(); now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all sources transitively invalidated by inheritance.
+[debug] Getting sources that directly depend on (external) objsets.TweetSet.
+[debug] The following modified names cause invalidation of /Users/deathgrindfreak/bin/scala-course/objsets/src/test/scala/objsets/TweetSetSuite.scala: Set(union)
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set(NamesChange(objsets.Empty,ModifiedNames(regularNames = union, implicitNames = )), NamesChange(objsets.Tweet,ModifiedNames(regularNames = union, implicitNames = )), NamesChange(objsets.TweetList,ModifiedNames(regularNames = union, implicitNames = )), NamesChange(objsets.TweetSet,ModifiedNames(regularNames = union, implicitNames = )))
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set()
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set(/Users/deathgrindfreak/bin/scala-course/objsets/src/test/scala/objsets/TweetSetSuite.scala)
+[debug] All initially invalidated sources: Set(/Users/deathgrindfreak/bin/scala-course/objsets/src/test/scala/objsets/TweetSetSuite.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /Users/deathgrindfreak/bin/scala-course/objsets/target/scala-2.11/test-classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.7
+[debug] Getting compiler-interface from component compiler for Scala 2.11.7
+[debug] Running cached compiler 26c7e92b, interfacing (CompilerInterface) with Scala compiler version 2.11.7
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes:/Users/deathgrindfreak/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+[debug] 	-classpath
+[debug] 	/Users/deathgrindfreak/bin/scala-course/objsets/target/scala-2.11/test-classes:/Users/deathgrindfreak/bin/scala-course/objsets/target/scala-2.11/classes:/Users/deathgrindfreak/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar:/Users/deathgrindfreak/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/Users/deathgrindfreak/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/Users/deathgrindfreak/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/deathgrindfreak/.ivy2/cache/junit/junit/jars/junit-4.10.jar:/Users/deathgrindfreak/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar
+[debug] Scala compilation took 2.63458457 s
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
