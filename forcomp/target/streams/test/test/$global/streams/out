@@ -1,0 +1,9 @@
+[debug] Running TaskDef(forcomp.AnagramsSuite, org.scalatest.tools.Framework$$anon$1@1870105d, false, [SuiteSelector])
+[info] Run completed in 1 second, 371 milliseconds.
+[info] Total number of tests run: 11
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 9, failed 2, canceled 0, ignored 0, pending 0
+[info] *** 2 TESTS FAILED ***
+[error] Failed tests:
+[error] 	forcomp.AnagramsSuite
+[error] (test:test) sbt.TestsFailedException: Tests unsuccessful
